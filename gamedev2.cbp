@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gamedev2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gamedev2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gamedev2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-window" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="application.cpp" />
+		<Unit filename="application.h" />
+		<Unit filename="button.cpp" />
+		<Unit filename="button.h" />
+		<Unit filename="dodgeEnemy.cpp" />
+		<Unit filename="dodgeEnemy.h" />
+		<Unit filename="dodgeGameState.cpp" />
+		<Unit filename="dodgeGameState.h" />
+		<Unit filename="dodgeItem.cpp" />
+		<Unit filename="dodgeItem.h" />
+		<Unit filename="fret.cpp" />
+		<Unit filename="fret.h" />
+		<Unit filename="gameMenuState.cpp" />
+		<Unit filename="gameMenuState.h" />
+		<Unit filename="highscore.cpp" />
+		<Unit filename="highscore.h" />
+		<Unit filename="highscoreState.cpp" />
+		<Unit filename="highscoreState.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menuState.cpp" />
+		<Unit filename="menuState.h" />
+		<Unit filename="particle.cpp" />
+		<Unit filename="particle.h" />
+		<Unit filename="pauseState.cpp" />
+		<Unit filename="pauseState.h" />
+		<Unit filename="pianoGameState.cpp" />
+		<Unit filename="pianoGameState.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="resourceHolder.h" />
+		<Unit filename="resourceIdentifiers.h" />
+		<Unit filename="state.cpp" />
+		<Unit filename="state.h" />
+		<Unit filename="stateIdentifiers.h" />
+		<Unit filename="statestack.cpp" />
+		<Unit filename="statestack.h" />
+		<Unit filename="utilities.cpp" />
+		<Unit filename="utilities.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
